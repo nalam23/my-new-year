@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+}
+/* navigation and header style */
+.nav-bar{
+    font-size:30px;
+    font-style: normal;
+    color: rgb(247, 243, 242);
+    display: flex;
+    justify-content: center;
+background-color: rgba(189, 16, 97, 0.733);
+width: 1560px;
+
+
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+   
+}
+.btn-primary{
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(138, 190, 17, 0.795);
+    color: rgb(250, 240, 243);
+    font-size: 30px;
+}
+/* header image style */
+header-img{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1600px;
+    height: 808px;
+    position: absolute;
+
+}
+.header-title{
+font-size: 30px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+color: white;
+position: relative;
+text-align: right;
+
+
+}
+.top-right{
+    position: absolute;
+    bottom: 400px;
+    right: 450px;
+   
+}
+/* header description style */
+
+.header-description{
+font-size: 25px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+position: relative;
+
+}
+.bottom-right{ 
+    position: absolute;
+    bottom: 800px;
+    right: 450px; 
+    color: white; 
+    text-align: right;
+    font-size: 16px;
+    line-height: 26px;
+}
+ /* header button style */
+.contact-btn{
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(138, 190, 17, 0.795);
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 750px;
+    right: 450px;
+
+}
+
+
+
