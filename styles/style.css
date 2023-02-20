@@ -1,5 +1,7 @@
 
 *{
+    margin: 0;
+    list-style-type: none;
     font-family: 'Work Sans', sans-serif; 
 }
 /* navigation and header style */
@@ -17,7 +19,7 @@ width: 1560px;
 }
 ul li{
     list-style: none;
-    margin-left: 60px;
+     margin-left: 60px; 
    
 }
 .btn-primary{
@@ -30,37 +32,55 @@ ul li{
 
 
 /* header image style */
-header-img{
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 1600px;
-    height: 808px;
-    position: absolute;
+
+.container{
+    position: relative;
 }
-.header-title{
-font-size: 30px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0em;
-color: white;
-position: relative;
-text-align: right;
+.container{
+    max-width: 100%;
+    height: auto;
+    
 }
-.top-right{
+.header-text{
+position: absolute;
+top: 40%;
+right: 40%;
+color: aliceblue;
+padding: 10px;
+}
+
+.header-text h1{
+font-size: bold;
+margin-bottom: 5px;
+}
+
+
+.header-text button{
+    border-radius: 5px;
+    }
+    .header-text button span{
+        font-weight: bold;
+        color: dodgerblue;
+    }
+
+
+
+
+/* .top-right{
     position: absolute;
     bottom: 400px;
     right: 450px;  
-}
+} */
 /* header description style */
 
-.header-description{
+/* .header-description{
 font-size: 25px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0em;
 position: relative;
-}
-.bottom-right{ 
+} */
+/* .bottom-right{ 
     position: absolute;
     bottom: 800px;
     right: 450px; 
@@ -68,9 +88,9 @@ position: relative;
     text-align: right;
     font-size: 16px;
     line-height: 26px;
-}
+} */
  /* header button style */
-.contact-btn{
+/* .contact-btn{
     height: 40px;
     border-radius: 5px;
     background-color: rgba(138, 190, 17, 0.795);
@@ -81,4 +101,17 @@ position: relative;
     right: 450px}
     .about{
         font-size: larger;
-    }
+    } */ 
+
+
+.about-container{
+    display: flex;
+   
+}
+
+
+/* .text{
+    
+    color: rgb(15, 108, 99);
+    
+} */
