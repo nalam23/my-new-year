@@ -219,15 +219,35 @@ text-align: center;
 
     left: 13%;
    
-       
+    background:  url('../images/gradient1.png'), url('../images/watch.png');  
     
+   background-repeat: no-repeat; 
+   background-position: 10px 1200px;
+   padding: 1500px 0;
+  
+
 }
+
+
+
+
 .container-2-text{
-position: absolute;
-top: 40%;
+
+ position: absolute; 
+ top: 43%; 
+ left: 5%;
 color: aliceblue;
 
-padding: 700px 40px 30px;
+
+
+
+
+
+     /* position: absolute; */
+/* top: 40%; */
+/* color: aliceblue; */
+
+/*padding: 700px 40px 30px; */
 
 }
 
@@ -268,11 +288,17 @@ margin-bottom: 5px;
 
 .footer-container{
    
-    
-    background-color: #151414;
+     
+
+position: absolute;
+      background-color: #151414;
          width: 65%;
-    padding: 200px 0 ;
+    padding: 100px 0 ;
     display: flex; 
+    /* bottom: 10%; */
+     top: 2500px; 
+
+    
 }
 
 
