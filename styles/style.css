@@ -75,12 +75,7 @@ margin-bottom: 5px;
     display: flex;
 }
 
- /* .box .imgBx{
-
-    width:750px;
-    flex: 0 0 150px; 
-} */
-
+ 
 
 .box .imgBx img{
 
@@ -121,3 +116,57 @@ margin-bottom: 5px;
 
 
 
+
+
+
+    /* My Plans Start */
+
+    .box1{
+
+        position: absolute;
+        top: 100%;
+        left: 40%;
+         transform: translate(-50%, -50%); 
+        width: 1200px;
+        padding: 20px;
+         
+    }
+
+
+.box1 h3{
+font-size: 45px;
+font-weight: bold;
+text-align: center;
+}
+
+
+.box1 .box1-container{
+    
+    display: flex;
+}
+
+.box1 .box1-container .imgBX1{
+    
+    text-align: center;
+}
+   
+
+
+.box1 .box1-container .imgBX2{
+    padding-left: 150PX;
+    text-align: center;
+}
+    
+.box1 .box1-container .imgBX3{
+    padding-left: 150PX;
+    text-align: center;
+}
+    
+.box1 .box1-container .imgBX4{
+    padding-left: 150PX;
+    text-align: center;
+}
+    
+    .box1 h3{
+        padding-bottom: 30px;
+    }
