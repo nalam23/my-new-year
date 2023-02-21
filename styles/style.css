@@ -1,10 +1,14 @@
 
+
+
+    
+
 *{
     margin: 0;
     list-style-type: none;
     font-family: 'Work Sans', sans-serif; 
 }
-/* navigation and header style */
+/* Start nav-bar style */
 .nav-bar{
     font-size:30px;
     font-style: normal;
@@ -30,8 +34,15 @@ ul li{
     font-size: 30px;
 }
 
+/* End nav-bar style */
 
-/* header image style */
+
+
+
+
+
+
+/* Start banner section style */
 
 .container{
     position: relative;
@@ -57,6 +68,7 @@ margin-bottom: 5px;
 
 .header-text button{
     border-radius: 5px;
+    padding: 5px;
     }
     .header-text button span{
         font-weight: bold;
@@ -64,6 +76,13 @@ margin-bottom: 5px;
     }
 
 
+/* End banner section style */
+
+
+
+
+
+/* My failure section  style start */
 .box{
 
     position: absolute;
@@ -114,12 +133,16 @@ margin-bottom: 5px;
         height: 20px;
     } 
 
+/* My failure section  style start */
 
 
 
 
 
-    /* My Plans Start */
+
+
+
+    /* My Plans section styles Start */
 
     .box1{
 
@@ -170,3 +193,102 @@ text-align: center;
     .box1 h3{
         padding-bottom: 30px;
     }
+
+
+/* My plans section styles end */
+
+
+
+
+
+
+
+
+/* start Always section styles */
+
+    
+.container-2{
+    position: relative;
+   
+}
+.container-2{
+    max-width: 100%;
+    height: auto;
+   
+    padding: 1200px 0 0; 
+
+    left: 13%;
+   
+       
+    
+}
+.container-2-text{
+position: absolute;
+top: 40%;
+color: aliceblue;
+
+padding: 700px 40px 30px;
+
+}
+
+.container-2-text h1{
+font-size: bold;
+margin-bottom: 5px;
+}
+
+
+.container-2-text button{
+    border-radius: 5px;
+    padding: 5px;
+    }
+    .heading-text button span{
+        font-weight: bold;
+        color: dodgerblue;
+
+    }
+
+/* End Always section styles */
+
+
+
+
+    
+
+
+    /* Start footer styles */
+
+.footer-btn{
+    padding: 5px;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+
+
+
+.footer-container{
+   
+    
+    background-color: #151414;
+         width: 65%;
+    padding: 200px 0 ;
+    display: flex; 
+}
+
+
+ .footer-container .footer-subscriber{
+    padding-left: 550px;
+    
+ }
+
+ .footer-subscriber h1{
+     color: aliceblue; 
+
+ }
+
+ .footer-text{
+    padding-left: 320px;
+     color: aliceblue; 
+ }
+
+/* end footer styles */
